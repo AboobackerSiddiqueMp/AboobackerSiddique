@@ -1,5 +1,18 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { IoLogoJavascript } from "react-icons/io";
+import { SiExpress } from "react-icons/si";
+import { FaHtml5,FaGithub,FaBootstrap  } from "react-icons/fa";
+import { TbSql } from "react-icons/tb";
+import { SiPostman } from "react-icons/si";
+
+import { FaFigma } from "react-icons/fa";
+
+
+
+
+
+
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
@@ -18,48 +31,57 @@ import {
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
+import { FaNode } from "react-icons/fa";
+
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+      <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <FaNode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+      <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+      <DiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+      <IoLogoJavascript />
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+      <FaHtml5 />
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+      <FaGithub />
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+      <SiFirebase />
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+      <FaBootstrap />
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+      <DiPython />
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <TbSql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <FaFigma />
+
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />

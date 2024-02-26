@@ -2,12 +2,18 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import olx from "../../Assets/Projects/olx.png"
+import media from "../../Assets/Projects/musicPlayer.jpg"
+import netflix from "../../Assets/Projects/netflix.png"
+import ecart from "../../Assets/Projects/e cart.jpg"
+import news from "../../Assets/Projects/newsinshorts-clone-script-slider.webp"
+import music from "../../Assets/Projects/A-Pandora-app-clone.jpg"
+
+
+
+
+
+
 
 function Projects() {
   return (
@@ -23,68 +29,70 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={olx}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="OLX Clone-React,Firebase,node"
+              description="
+              Introducing OLX Clone: your streamlined marketplace for seamless buying and selling. Built with React, Node.js, and Firebase, OLX Clone offers secure authentication, effortless listings, and smooth transactions. Experience direct communication, personalized recommendations, and a world of possibilities. Join OLX Clone today!"
+              ghLink="https://github.com/AboobackerSiddiqueMp/olx-clone"
+              demoLink="https://olx-clone-eta.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={media}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Media Player-react,node"
+              description="
+              Introducing your go-to Media Player app, powered by React and Redux. Effortlessly manage songs, create custom playlists, and enjoy smooth video playback. Stay organized with easy categorization and responsive design. Download now for a seamless media experience!"
+              ghLink="https://github.com/AboobackerSiddiqueMp/mediaplayer"
+              demoLink="https://mediaplayer-gamma.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={netflix}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Netflic clone-React"
+              description="Introducing your React-based Netflix Clone: powered by TMDB API for seamless streaming. Explore diverse genres, watch trailers, and personalize your movie nights effortlessly. With a vast library at your fingertips, find the perfect film in just a click. Elevate your entertainment experience today with our intuitive platform."
+              ghLink="https://github.com/AboobackerSiddiqueMp/Netflix-Clone1"
+              demoLink="https://aboobackersiddiquemp.github.io/Netflix-Clone1/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={ecart}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="E-Cart-React,node,mongo db"
+              description="Introducing our Node.js and MongoDB project: a versatile e-commerce platform facilitating seamless shopping experiences. Users can browse, purchase securely via Razorpay, and manage carts, while admins maintain inventory effortlessly. With robust features and intuitive design, streamline your online retail operations effortlessly. Explore the future of e-commerce with our dynamic solution today!"
+
+              ghLink="https://github.com/AboobackerSiddiqueMp/ShoppingCart"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={news}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="NEWS app-react"
+              description="Proficient in developing dynamic web applications, I've created a React-powered News App integrated with the News API. Users can access and explore the latest headlines across various categories, enhancing their news consumption experience. Skilled in frontend development, I prioritize user experience and interface design to deliver intuitive and engaging applications."
+              ghLink="https://github.com/AboobackerSiddiqueMp/news-dply"
+
+              demoLink="https://www.linkedin.com/feed/update/urn:li:activity:7153836641659293696/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={music}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="chat bot-python,sql"
+              description="Designed and implemented a Python Flask-based chatbot integrated with SQL database functionality. Leveraging natural language processing techniques, the chatbot detects user emotions and provides personalized song recommendations. Proficient in backend development, I utilized Flask and SQL to create a responsive and interactive chatbot experience, enhancing user engagement and satisfaction."
+              ghLink="https://github.com/AboobackerSiddiqueMp/music-recommendation-app"
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>
