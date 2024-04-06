@@ -8,6 +8,10 @@ import netflix from "../../Assets/Projects/netflix.png"
 import ecart from "../../Assets/Projects/e cart.jpg"
 import news from "../../Assets/Projects/newsinshorts-clone-script-slider.webp"
 import music from "../../Assets/Projects/A-Pandora-app-clone.jpg"
+import book from "../../Assets/Projects/bookmart.png"
+import projectfair from "../../Assets/Projects/projectfair.png"
+
+
 
 
 
@@ -27,6 +31,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={book}
+              isBlog={false}
+              title="Bookmart-MERN,Stripecheckout"
+              description="
+              Our MERN-based bookstore allows users to securely authenticate, browse, and purchase books. Sellers can list books for sale, manage inventory, and track sales. Integrated Stripe checkout enables seamless payments, while community features foster engagement and recommendations"
+              ghLink="https://github.com/AboobackerSiddiqueMp/bookmart"
+              demoLink="https://bookmart-nu.vercel.app"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={projectfair}
+              isBlog={false}
+              title="Project maneger-MERN"
+              description="
+              Welcome to Project Fair, a MERN-based platform for showcasing, managing, and sorting projects. With robust authentication and authorization features, users can securely access and present their projects. Seamlessly navigate and organize projects to find inspiration and collaboration opportunities easily  "
+              ghLink="https://github.com/AboobackerSiddiqueMp/projectfair"
+              demoLink="https://projectfair-teal.vercel.app"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={olx}
