@@ -20,37 +20,21 @@ function Home2() {
             </h1>
 
 
-            <p className="home-about-body">
-
-              Hello, I'm Aboobacker Siddique, a driven job seeker and recent BCA graduate with a newfound expertise in the MERN stack. Eager to embark on my journey in software development, I'm ready to contribute my fresh perspective and dedication to your team.<br/>
-<br/>
-I'm a proficient MERN stack developer with a passion for crafting dynamic web applications using modern JavaScript frameworks
-
-
-
-              <br />
-              <br />Proficient in MERN stack:
-              <i>
-                <b className="purple">MongoDB, Express.js, React.js, and Node.js. </b>
-              </i>
-              <br />
-              <br />
-              Skilled in developing dynamic  <b className="purple">web applications</b> with modern JavaScript libraries and frameworks like React.js and Next.js.
-              &nbsp;
-              <i>
-              </i>
-              <br />
-              <br />
-              Passionate about exploring new web technologies and product development.
-              <i>
-                <b className="purple">
-                  {" "}
-                </b>
-              </i>
-              &nbsp;
-              <i>
-              </i>
-            </p>
+<p className="home-about-body">
+  Hello, I'm Aboobacker Siddique, a recent BCA graduate with expertise in the MERN stack. I'm eager to embark on my journey in software development and contribute my fresh perspective and dedication to your team.
+  <br />
+  <br />
+  After finishing my BCA, I joined an internship as a MERN Developer, where I gained hands-on experience in developing web applications using MongoDB, Express.js, React.js, and Node.js. This opportunity allowed me to apply my academic knowledge to real-world projects, further strengthening my understanding of the MERN stack.
+  <br />
+  <br />
+  I'm skilled in developing dynamic <b className="purple">web applications</b> using modern JavaScript libraries and frameworks like React.js and Next.js.
+  <br />
+  <br />
+  My passion for exploring new web technologies and product development drives me to constantly expand my knowledge and improve my skills.
+  <br />
+  <br />
+  I'm excited about the opportunity to bring my energy and enthusiasm to your organization.
+</p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
